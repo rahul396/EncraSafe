@@ -3,7 +3,7 @@ import base64
 from uuid import uuid4
 from loguru import logger
 from cryptography.fernet import Fernet
-from local_secret_manager.database import inject_db_session, db_models
+from encrasafe.database import inject_db_session, db_models
 
 ENCRYPTION_KEY = os.environ.get('ENCRYPTION_KEY')
 
