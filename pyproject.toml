@@ -1,0 +1,18 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "local-secret-manager"
+version = "0.1.0"
+description = "A simple secret manager to hold your env or credentials secrets"
+authors = ["Rahul <rahulbit10180@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+sqlalchemy = "^2.0.31"
+loguru = "^0.7.2"
+psycopg2-binary = "^2.9.9"
+

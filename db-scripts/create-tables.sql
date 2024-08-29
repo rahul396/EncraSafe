@@ -1,0 +1,5 @@
+-- create table public.secrets (
+--     id character varying(36) DEFAULT public.uuid_generate_v4() NOT NULL,
+--     env character varying(10) DEFAULT 'DEV',
+--     nam
+-- )
